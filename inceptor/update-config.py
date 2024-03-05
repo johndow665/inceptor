@@ -71,7 +71,7 @@ def detect_base_path():
         "C:\\Program Files\\Microsoft Visual Studio\\2017\\",
         "C:\\Program Files\\Microsoft Visual Studio\\2019\\",
         "C:\\Program Files\\Microsoft Visual Studio\\2021\\",
-        "C:\\Program Files\\Microsoft Visual Studio\\2022\\"
+        "E:\\VS\\Microsoft Visual Studio\\2022"
     ]
     available = [path for path in known_paths if os.path.isdir(path)]
     print(f"[*] Identified multiple VS Installations")
